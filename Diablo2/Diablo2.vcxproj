@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Diablo II</ProjectName>
+    <ProjectGuid>{23CF04BF-CBB1-46C2-B5BB-408DA2B68E92}</ProjectGuid>
+    <RootNamespace>My130625</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.29511.113</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Act2.cpp" />
+    <ClCompile Include="Act2Back.cpp" />
+    <ClCompile Include="Act2Proto.cpp" />
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Boss1.cpp" />
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="Diablo2.cpp" />
+    <ClCompile Include="Info.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Inven.cpp" />
+    <ClCompile Include="Isaac.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="LogoMonster.cpp" />
+    <ClCompile Include="LogoPlayer.cpp" />
+    <ClCompile Include="LogoProto.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Monster1.cpp" />
+    <ClCompile Include="Monster2.cpp" />
+    <ClCompile Include="MouseMgr.cpp" />
+    <ClCompile Include="MultiTexture.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="ObjMgr.cpp" />
+    <ClCompile Include="ObjProto.cpp" />
+    <ClCompile Include="Panel.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PshopNpc.cpp" />
+    <ClCompile Include="Quest.cpp" />
+    <ClCompile Include="QuestMgr.cpp" />
+    <ClCompile Include="RandomMgr.cpp" />
+    <ClCompile Include="RectMgr.cpp" />
+    <ClCompile Include="RenderMgr.cpp" />
+    <ClCompile Include="ScrollMgr.cpp" />
+    <ClCompile Include="ShopNpc.cpp" />
+    <ClCompile Include="SingleTexture.cpp" />
+    <ClCompile Include="Sonic.cpp" />
+    <ClCompile Include="SoundMgr.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="StageProto.cpp" />
+    <ClCompile Include="StateMgr.cpp" />
+    <ClCompile Include="StateObj.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TextMgr.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureMgr.cpp" />
+    <ClCompile Include="TimeMgr.cpp" />
+    <ClCompile Include="WayPoint.cpp" />
+    <ClCompile Include="Yuusha.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Act2.h" />
+    <ClInclude Include="Act2Back.h" />
+    <ClInclude Include="Act2Proto.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Boss1.h" />
+    <ClInclude Include="Constant.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="Diablo2.h" />
+    <ClInclude Include="Enum.h" />
+    <ClInclude Include="Info.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="Inven.h" />
+    <ClInclude Include="Isaac.h" />
+    <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="LogoMonster.h" />
+    <ClInclude Include="LogoPlayer.h" />
+    <ClInclude Include="LogoProto.h" />
+    <ClInclude Include="Macro.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Monster1.h" />
+    <ClInclude Include="Monster2.h" />
+    <ClInclude Include="MouseMgr.h" />
+    <ClInclude Include="MultiTexture.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="ObjMgr.h" />
+    <ClInclude Include="ObjProto.h" />
+    <ClInclude Include="Panel.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PshopNpc.h" />
+    <ClInclude Include="Quest.h" />
+    <ClInclude Include="QuestMgr.h" />
+    <ClInclude Include="RandomMgr.h" />
+    <ClInclude Include="RectMgr.h" />
+    <ClInclude Include="RenderMgr.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ScrollMgr.h" />
+    <ClInclude Include="ShopNpc.h" />
+    <ClInclude Include="SingleTexture.h" />
+    <ClInclude Include="SingleTon.h" />
+    <ClInclude Include="Sonic.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="StageProto.h" />
+    <ClInclude Include="StateMgr.h" />
+    <ClInclude Include="StateObj.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Struct.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextMgr.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureMgr.h" />
+    <ClInclude Include="TimeMgr.h" />
+    <ClInclude Include="WayPoint.h" />
+    <ClInclude Include="Yuusha.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Diablo2.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Diablo2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

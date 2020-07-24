@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Header">
+      <UniqueIdentifier>{54f85b3a-daea-4d89-8437-1051530e6b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Header\Constant">
+      <UniqueIdentifier>{c67202d2-dbb2-428f-bfe0-2acc68db360f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Header\Macro">
+      <UniqueIdentifier>{6b948db2-333f-45ff-a16c-6eda2c5ff780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Header\Struct">
+      <UniqueIdentifier>{0bfbaaff-9e37-414e-9322-9dff16e89408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Header\Enum">
+      <UniqueIdentifier>{f633edc6-6e78-40a4-9bd0-aab3c1343a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{5eb94498-c1d1-409c-a632-34b2bfb432f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{004a2ba9-3e04-44d6-b890-a5f7e596228f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\1.Player">
+      <UniqueIdentifier>{c62b0f6b-1e76-4986-9295-ce71c726a278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\3.UI">
+      <UniqueIdentifier>{cdae620e-79c3-4d9b-a266-bed31c829638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\3.UI\퀘스트">
+      <UniqueIdentifier>{254ced89-17ba-41d2-ae0a-ee272dfd3674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\3.UI\인벤토리">
+      <UniqueIdentifier>{7948a08f-5ab5-4e8a-bd03-38c27b6f8174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\3.UI\스텟">
+      <UniqueIdentifier>{a9abe027-96eb-4f9e-b2cf-ecce42f5de35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\3.UI\메인패널">
+      <UniqueIdentifier>{d191c2a4-bb4b-4be0-96d3-ff9b5a71b0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\3.UI\WayPoint">
+      <UniqueIdentifier>{dd205387-f696-441c-9b24-0a6b1553f54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\99.BackGround">
+      <UniqueIdentifier>{349bbf36-dc84-4788-a8eb-e4829fcc3120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\99.BackGround\Act1">
+      <UniqueIdentifier>{e02ee4c1-0560-4edb-826e-85611fe66aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\99.BackGround\Act2">
+      <UniqueIdentifier>{3085e9ba-a6ff-42b4-8767-1d98020cb3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\99.BackGround\Logo">
+      <UniqueIdentifier>{1d808596-f10f-4e7d-bb09-6e38634d7e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\99.BackGround\Logo\obj">
+      <UniqueIdentifier>{7ebf20b2-7f93-4fc5-a7e1-77cf98b91105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\2.Monster">
+      <UniqueIdentifier>{9161dd55-de05-49d7-a1d8-4b5c53147f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\2.Monster\Act1">
+      <UniqueIdentifier>{529c50c2-3c9a-4e3b-812f-9ade3cb145ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\2.Monster\Act1\1">
+      <UniqueIdentifier>{10c119ae-85cc-48c9-bbb7-bda6d2c62cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\2.Monster\Act1\2">
+      <UniqueIdentifier>{2bb202fa-8251-4b7d-a5f4-9a3fa714574f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\2.Monster\Act1\Boss">
+      <UniqueIdentifier>{b1d4d5f1-8d36-48f2-88f0-135c5555f470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\2.Monster\Act2">
+      <UniqueIdentifier>{6d43a54d-ad96-4115-892e-a5f3c609f97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\2.Monster\Act3">
+      <UniqueIdentifier>{b19e6af3-102e-45fc-b83c-987a69828109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\4.Npc">
+      <UniqueIdentifier>{772cad10-3038-4ac8-bba3-c49d75f03f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\4.Npc\ShopNPC">
+      <UniqueIdentifier>{f70214c9-48c7-47ea-b226-cb7aa6e1b6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\4.Npc\PShopNPC">
+      <UniqueIdentifier>{83fc14e3-d0fe-4b73-a7e5-f3145b54641f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\4.Npc\아이작">
+      <UniqueIdentifier>{0a380495-2c65-4109-baf5-6c185f7c028a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\4.Npc\용사">
+      <UniqueIdentifier>{972af560-f902-45f6-b65b-649d4a4dbb64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\4.Npc\소닉">
+      <UniqueIdentifier>{f1702163-e6f4-4b3e-936f-856acbc191a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{7f3cd9ad-7800-4023-9b40-df16b9d12026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Act1">
+      <UniqueIdentifier>{2362a72a-a9f5-46dc-85cb-473eb8dadc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Act2">
+      <UniqueIdentifier>{96a07f82-40ba-4b2b-8c14-23f5d39292bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Logo">
+      <UniqueIdentifier>{ddd4a5b0-4822-4cc3-90e8-9a11446ac346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{6e61f05f-59af-4a5a-a920-817ea47ccda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{a38b4632-265d-4fca-93e1-36c18aff5e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{9d753473-fe47-43fa-ba99-8e05a8582b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\StateMgr">
+      <UniqueIdentifier>{e484e4a5-c512-4646-b50d-bf22b0de717f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TexMgr">
+      <UniqueIdentifier>{bc718916-381b-42c5-954e-ce1f05ba3362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TexMgr\Texture">
+      <UniqueIdentifier>{54faa3bc-efa6-4bf2-96cf-e9462e41e904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TexMgr\Texture\Single">
+      <UniqueIdentifier>{671ec0c8-8a63-4c83-b3a1-ec5bd96ea851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TexMgr\Texture\Multi">
+      <UniqueIdentifier>{07da4301-2c19-4e0b-9815-e60903f7e777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TimeMgr">
+      <UniqueIdentifier>{cfe9a5bb-372a-4245-a3dd-ca4e0c479c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\KeyMgr">
+      <UniqueIdentifier>{55a58ff5-fe9c-43f3-954a-8444fa6df642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjMgr">
+      <UniqueIdentifier>{91d49e9b-ad6a-4074-b56b-0001d4338067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjMgr\Prototype">
+      <UniqueIdentifier>{730d0f58-d4b0-4d64-94df-1a9ae672f27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjMgr\Prototype\Logo">
+      <UniqueIdentifier>{ec7d2011-74da-4a90-abdc-105f4c1eeee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjMgr\Prototype\Act1">
+      <UniqueIdentifier>{ada93f87-f297-43d6-99fb-87a2566c646a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjMgr\Prototype\Act2">
+      <UniqueIdentifier>{a3cbd857-645f-4f18-8d85-1f319df8081f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjMgr\Prototype\Monster">
+      <UniqueIdentifier>{aa568a64-62a0-44cd-8364-50e1631c965f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ScrollMgr">
+      <UniqueIdentifier>{b6c30637-57d6-40d4-afcb-8d2efb114f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\MouseMgr">
+      <UniqueIdentifier>{c33e8a8d-af75-4758-8359-4f35743168ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\RectCheck">
+      <UniqueIdentifier>{2352c69d-5886-487d-9df7-2f0107954bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TextMgr텍스쳐아님">
+      <UniqueIdentifier>{7be8794e-49ad-43a2-9daa-f8082e26ea9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\QuestMgr">
+      <UniqueIdentifier>{3f3a8115-1eb4-491c-bca9-f1cad57a9ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SoundMgr">
+      <UniqueIdentifier>{98124b4a-f508-4170-a7d7-ace56e5dc8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\RendomMgr">
+      <UniqueIdentifier>{9ecd03c2-6613-4241-9caf-d557f7fccf3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\RenderMgr">
+      <UniqueIdentifier>{4e906705-c227-4b31-9b76-46102376e62a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SingleTon">
+      <UniqueIdentifier>{7102ad94-4121-4b71-a0df-5375f7a71a9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Diablo2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\1.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Object\3.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest.cpp">
+      <Filter>Object\3.UI\퀘스트</Filter>
+    </ClCompile>
+    <ClCompile Include="Inven.cpp">
+      <Filter>Object\3.UI\인벤토리</Filter>
+    </ClCompile>
+    <ClCompile Include="Info.cpp">
+      <Filter>Object\3.UI\스텟</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Object\3.UI\메인패널</Filter>
+    </ClCompile>
+    <ClCompile Include="WayPoint.cpp">
+      <Filter>Object\3.UI\WayPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Object\99.BackGround\Act1</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2Back.cpp">
+      <Filter>Object\99.BackGround\Act2</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoMonster.cpp">
+      <Filter>Object\99.BackGround\Logo\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoPlayer.cpp">
+      <Filter>Object\99.BackGround\Logo\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster1.cpp">
+      <Filter>Object\2.Monster\Act1\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster2.cpp">
+      <Filter>Object\2.Monster\Act1\2</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1.cpp">
+      <Filter>Object\2.Monster\Act1\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopNpc.cpp">
+      <Filter>Object\4.Npc\ShopNPC</Filter>
+    </ClCompile>
+    <ClCompile Include="PshopNpc.cpp">
+      <Filter>Object\4.Npc\PShopNPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Isaac.cpp">
+      <Filter>Object\4.Npc\아이작</Filter>
+    </ClCompile>
+    <ClCompile Include="Yuusha.cpp">
+      <Filter>Object\4.Npc\용사</Filter>
+    </ClCompile>
+    <ClCompile Include="Sonic.cpp">
+      <Filter>Object\4.Npc\소닉</Filter>
+    </ClCompile>
+    <ClCompile Include="StateObj.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>State\Act1</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2.cpp">
+      <Filter>State\Act2</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>State\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMgr.cpp">
+      <Filter>Manager\StateMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>Manager\TexMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Manager\TexMgr\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>Manager\TexMgr\Texture\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>Manager\TexMgr\Texture\Multi</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>Manager\TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>Manager\ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjProto.cpp">
+      <Filter>Manager\ObjMgr\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoProto.cpp">
+      <Filter>Manager\ObjMgr\Prototype\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="StageProto.cpp">
+      <Filter>Manager\ObjMgr\Prototype\Act1</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2Proto.cpp">
+      <Filter>Manager\ObjMgr\Prototype\Act2</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>Manager\ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMgr.cpp">
+      <Filter>Manager\MouseMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="RectMgr.cpp">
+      <Filter>Manager\RectCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="TextMgr.cpp">
+      <Filter>Manager\TextMgr텍스쳐아님</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestMgr.cpp">
+      <Filter>Manager\QuestMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>Manager\SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMgr.cpp">
+      <Filter>Manager\RendomMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMgr.cpp">
+      <Filter>Manager\RenderMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Diablo2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>헤더 파일\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>헤더 파일\Header\Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>헤더 파일\Header\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일\Header\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일\Header\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\1.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Object\3.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.h">
+      <Filter>Object\3.UI\퀘스트</Filter>
+    </ClInclude>
+    <ClInclude Include="Inven.h">
+      <Filter>Object\3.UI\인벤토리</Filter>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <Filter>Object\3.UI\스텟</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Object\3.UI\메인패널</Filter>
+    </ClInclude>
+    <ClInclude Include="WayPoint.h">
+      <Filter>Object\3.UI\WayPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Object\99.BackGround\Act1</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2Back.h">
+      <Filter>Object\99.BackGround\Act2</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoMonster.h">
+      <Filter>Object\99.BackGround\Logo\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoPlayer.h">
+      <Filter>Object\99.BackGround\Logo\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster1.h">
+      <Filter>Object\2.Monster\Act1\1</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster2.h">
+      <Filter>Object\2.Monster\Act1\2</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1.h">
+      <Filter>Object\2.Monster\Act1\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopNpc.h">
+      <Filter>Object\4.Npc\ShopNPC</Filter>
+    </ClInclude>
+    <ClInclude Include="PshopNpc.h">
+      <Filter>Object\4.Npc\PShopNPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Isaac.h">
+      <Filter>Object\4.Npc\아이작</Filter>
+    </ClInclude>
+    <ClInclude Include="Yuusha.h">
+      <Filter>Object\4.Npc\용사</Filter>
+    </ClInclude>
+    <ClInclude Include="Sonic.h">
+      <Filter>Object\4.Npc\소닉</Filter>
+    </ClInclude>
+    <ClInclude Include="StateObj.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>State\Act1</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2.h">
+      <Filter>State\Act2</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>State\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMgr.h">
+      <Filter>Manager\StateMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>Manager\TexMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Manager\TexMgr\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>Manager\TexMgr\Texture\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>Manager\TexMgr\Texture\Multi</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>Manager\TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>Manager\ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjProto.h">
+      <Filter>Manager\ObjMgr\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoProto.h">
+      <Filter>Manager\ObjMgr\Prototype\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="StageProto.h">
+      <Filter>Manager\ObjMgr\Prototype\Act1</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2Proto.h">
+      <Filter>Manager\ObjMgr\Prototype\Act2</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>Manager\ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMgr.h">
+      <Filter>Manager\MouseMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="RectMgr.h">
+      <Filter>Manager\RectCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="TextMgr.h">
+      <Filter>Manager\TextMgr텍스쳐아님</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestMgr.h">
+      <Filter>Manager\QuestMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>Manager\SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMgr.h">
+      <Filter>Manager\RendomMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMgr.h">
+      <Filter>Manager\RenderMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>SingleTon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Diablo2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Diablo2.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

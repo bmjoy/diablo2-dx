@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Diablo II", "Diablo2\Diablo2.vcxproj", "{23CF04BF-CBB1-46C2-B5BB-408DA2B68E92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23CF04BF-CBB1-46C2-B5BB-408DA2B68E92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23CF04BF-CBB1-46C2-B5BB-408DA2B68E92}.Debug|Win32.Build.0 = Debug|Win32
+		{23CF04BF-CBB1-46C2-B5BB-408DA2B68E92}.Release|Win32.ActiveCfg = Release|Win32
+		{23CF04BF-CBB1-46C2-B5BB-408DA2B68E92}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {754A56B0-D252-488C-8C70-A0C60C988ABE}
+	EndGlobalSection
+EndGlobal
