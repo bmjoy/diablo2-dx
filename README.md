@@ -2,7 +2,7 @@
 ## 게임 플레이 영상 (YouTube)
 [![Video Label](http://img.youtube.com/vi/sQSyecwb0mQ/0.jpg)](https://youtu.be/sQSyecwb0mQ?t=0s)
 
-## 코드
+## 주요 코드
 | 설명 | 링크 |
 | :------------ | :----------: |
 | 게임 내 모든 오브젝트 관리 | [ObjMgr.h](Diablo2/ObjMgr.h), [ObjMgr.cpp](Diablo2/ObjMgr.cpp) |
